@@ -6,6 +6,24 @@
 
 爬取的时候,需要输入爬取的书本ID和爬取方式.
 
+## 相关依赖
+
+脚本依赖的第三方库为`BeautifulSoup`和`requests`.如果你的电脑没有安装,请打开终端,执行以下命令:
+
+* 安装BS4
+
+`pip install beautifulsoup4`
+
+* 安装解析器
+
+`pip install lxml`
+
+* 安装requests
+
+`pip install requests`
+
+如果安装报错权限不足,请在命令前加上`sudo`
+
 ## 书本ID
 
 书本ID的获取方式如下图
